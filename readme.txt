@@ -7,13 +7,6 @@ This project demonstrates a simple use of [AutoGen](https://github.com/microsoft
 
 ---
 
-## 🚀 Features
-- Uses OpenAI `gpt-4` as the base LLM (configurable).
-- Demonstrates `AssistantAgent` to `AssistantAgent` communication.
-- Generates and reviews Python functions based on user prompts.
-
----
-
 Install dependencies:
 ```bash
 pip install -r requirements.txt

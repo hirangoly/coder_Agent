@@ -14,27 +14,21 @@ This project demonstrates a simple use of [AutoGen](https://github.com/microsoft
 
 ---
 
-## 🧰 Requirements
-
-- Python 3.8+
-- See [`requirements.txt`](./requirements.txt) for dependencies
-
 Install dependencies:
 ```bash
 pip install -r requirements.txt
 
+---
+
 📦 Example Output
 The interaction flow will resemble:
+* User asks: "Write a Python function for sorting."
+* Coder replies with the code.
+* Reviewer reviews and provides feedback.
 
-User asks: "Write a Python function for sorting."
-
-Coder replies with the code.
-
-Reviewer reviews and provides feedback.
+---
 
 📈 Future Improvements
-Enable code execution with code_execution_config=True to test generated code.
-
-Add logging or chat history persistence.
-
-Integrate domain-specific tools or APIs.
+* Enable code execution with code_execution_config=True to test generated code.
+* Add logging or chat history persistence.
+* Integrate domain-specific tools or APIs.
